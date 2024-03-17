@@ -338,7 +338,7 @@ h2{
   padding: 16px;
   background-color: #fff;
   width: 50%;
-  height: 650px;
+  height: 700px;
   position: relative;
 }
 .close-btn {
@@ -353,6 +353,7 @@ h2{
 }
 .x-btn{
   color: var(--main-color);
+  margin-bottom: 6px;
 }
 .overlay {
   display: flex;
@@ -392,12 +393,14 @@ h2{
   flex-direction: column;
   gap: 4px;
   margin: 10px;
+  
+  
 }
 .modal-button{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
   
 }
 textarea{
@@ -416,4 +419,8 @@ textarea{
 }
 .modal-btn:hover{
   scale: 1.1;
+}
+.checkbox{
+  margin-left: 10px;
+  margin-top: 10px;
 }
