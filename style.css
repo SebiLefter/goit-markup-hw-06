@@ -424,3 +424,55 @@ textarea{
   margin-left: 10px;
   margin-top: 10px;
 }
+#name{
+  height: 30px;
+}
+#phone{
+  height: 30px;
+}
+#email{
+  height: 30px;
+}
+
+.modal-icons{
+  float: left;
+  margin-left: 6px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+  fill: #000000;
+  stroke: #ffffff;
+}
+input{
+  padding-left: 30px;
+}
+.footer-subs{
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+  margin-top: -100px;
+  margin-right: 300px;
+}
+.send-btn{
+  width: 20px;
+  fill: #F4F4FD;
+  stroke: #4D5AE5;
+}
+.subscribe-btn{
+  background-color: #4D5AE5;
+  color: #F4F4FD;
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: center;
+  border: transparent;
+  border-radius: 5%;
+  
+
+}
+.footer-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+  margin-right: 159px;
+}
