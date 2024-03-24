@@ -467,12 +467,18 @@ input{
   justify-content: center;
   border: transparent;
   border-radius: 5%;
-  
-
+  font-family: var(--text-font-family);
 }
+.subscribe-btn:hover{
+  scale: 1.1;
+}
+
 .footer-btn{
   display: flex;
   justify-content: flex-end;
   margin-top: -30px;
   margin-right: 159px;
+}
+.form-group:focus-within .modal-icons{
+  fill: #4D5AE5;
 }
